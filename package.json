@@ -1,0 +1,45 @@
+{
+  "name": "mongooseschedule",
+  "description": "mongooseschedule",
+  "version": "0.0.1",
+  "author": {
+    "name": "Anthony McCormick",
+    "email": "anthony.mccormick AT gmail.com"
+  },
+  "keywords": [
+    "logger"
+  ],
+  "scripts": {
+    "test": "./node_modules/jasmine-node/bin/jasmine-node test/ --verbose --color --captureExceptions"
+  },
+  "main": "index",
+  "engines": {
+    "node": ">=0.6.19"
+  },
+  "bugs": {
+    "url": "https://github.com/mccormicka/mongooseschedule/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mccormicka/mongooseschedule"
+  },
+  "homepage": "https://github.com/mccormicka/mongooseschedule",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "nodelogger": "https://github.com/mccormicka/nodelogger/archive/master.tar.gz",
+    "mongoosetoken": "https://github.com/mccormicka/mongoosetoken/archive/master.tar.gz",
+    "lodash": "~1.3.1",
+    "ms": "~0.6.1",
+    "moment": "~2.4.0",
+    "node-schedule": "~0.1.12"
+  },
+  "devDependencies": {
+    "grunt": "0.4.1",
+    "jasmine-node": "https://github.com/mccormicka/jasmine-node/archive/exclusive-tests.tar.gz",
+    "grunt-contrib-watch": "0.3.1",
+    "grunt-contrib-jshint": "0.4.3",
+    "grunt-jasmine-node": "~0.1.0",
+    "mongoose": "~3.6.16",
+    "mockgoose": "~1.0.1"
+  }
+}
